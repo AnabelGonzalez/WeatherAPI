@@ -17,8 +17,9 @@ Get location (latitude, longitude)
 ![V0](https://weatherapi.anabelgonzalez.com/weather-api-v0.png)
 
 ### V1:
-Improved modern UI
-Hability to enter the Location (Coming Soon)
+Improved modern UI  
+Hability to enter the Location (Coming Soon)  
+
 
 ![V0](https://weatherapi.anabelgonzalez.com/weather-api-v1.png)
 
