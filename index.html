@@ -7,33 +7,44 @@
     <title>Weather API</title>
     <meta name="description" content="The HTML5 Herald" />
     <meta name="author" content="SitePoint" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
     />
-
-    <link rel="stylesheet" href="bootstrap.min.css" />
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body>
-    <h4 class="text-center">Open Weather API</h4>
-    <div class="location">
-      <h1 class="location-timezone">Timezone</h1>
-      <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" id="icon" />
-    </div>
-    <div class="temperature">
-      <div class="degree-section">
-        <h2 class="temperature-degree">34</h2>
-        <span>C</span>
+  <body class="bg-dark">
+    <div class="container">
+      <div class="api-initial">
+        <h4 class="text-center">Open Weather API</h4>
+
+        <div id="no-geo"></div>
+        <div class="loader"></div>
+
+        <div class="location">
+          <h1 class="location-timezone"></h1>
+          <img src="" alt="" id="icon" />
+        </div>
+        <div class="temperature">
+          <div class="degree-section">
+            <h2 class="temperature-degree"></h2>
+          </div>
+
+          <div class="temperature-description"></div>
+        </div>
       </div>
 
-      <div class="temperature-description">Cold</div>
+      <form id="defineLocation">
+        <h4 class="text-center">Open Weather API</h4>
+        <input type="text" id="enterLocation" placeholder="Enter Location" />
+        <button id="userDefinedLocation">Search City</button>
+        <div id="error"></div>
+      </form>
     </div>
+
+    <button id="change-location">Change Location</button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
