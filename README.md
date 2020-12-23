@@ -18,7 +18,7 @@ Get location (latitude, longitude)
 
 ### V1:
 Improved modern UI:
-  - Loading css animation
+  - Loading css animation  
 User entered location  
 Error handling: Error message shown when city cannot be found
 
