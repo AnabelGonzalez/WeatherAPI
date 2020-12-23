@@ -12,7 +12,7 @@ This small project was created to test the Open Weather API using Vanilla Javasc
 * CSS including animations
 
 ### V0: 
-Get location (latitude, longitude)
+- Get user location (latitude, longitude)
 
 ![V0](https://weatherapi.anabelgonzalez.com/weather-api-v0.png)
 
