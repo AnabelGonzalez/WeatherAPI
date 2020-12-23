@@ -17,8 +17,10 @@ Get location (latitude, longitude)
 ![V0](https://weatherapi.anabelgonzalez.com/weather-api-v0.png)
 
 ### V1:
-Improved modern UI  
-Hability to enter the Location (Coming Soon)  
+Improved modern UI:
+  - Loading css animation
+User entered location  
+Error handling: Error message shown when city cannot be found
 
 
 ![V0](https://weatherapi.anabelgonzalez.com/weather-api-v1.png)
