@@ -4,7 +4,9 @@ Open Weather Map API
 
 ### Open Weather Map API Project
 
-This small project was created to test the Open Weather API using Vanilla Javascript.
+This small project is a single page application that was created to test the Open Weather Map API using Vanilla Javascript.  
+Once the app is loaded, it will prompt the user to share their location. Alternatively, users can set their own location and fetch the api to get the current weather data.  
+
 
 ## Technologies Used:
 * Fetch API
