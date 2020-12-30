@@ -20,8 +20,8 @@ Once the app is loaded, it will prompt the user to share their location. Alterna
 
 ### V1:
 - Improved modern UI:
-  - Loading css animation  
-- User entered location  
+  - Loading css animation: css loading animation is shown before the user shares location.
+- User entered location: Users can enter their own location.
 - Error handling: Error message shown when city cannot be found. Error message will be displayed if the entered city cannot be found. Users can the, re-try with a different city name.
 
 
